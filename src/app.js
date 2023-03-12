@@ -8,6 +8,7 @@ async function main() {
   const data = await res.json();
   console.timeEnd('download');
   console.log(data);
+  
 }
 
 main();
